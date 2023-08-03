@@ -23,6 +23,7 @@ Extra large devices (large laptops and desktops, 1200px and up)
 
   #login{
     width: 80vw;
+    height: 335px;
   }
 
   #imagem{
@@ -34,6 +35,15 @@ Extra large devices (large laptops and desktops, 1200px and up)
   #formulario{
     float: right;
     width: 70%;
+  }
+
+  #formulario>h1{
+    font-size: 2em;
+  }
+  
+  #formulario>p{
+    font-size: 1em;
+    margin: 20px 0px;
   }
 }
 
@@ -51,13 +61,5 @@ Extra large devices (large laptops and desktops, 1200px and up)
   #formulario{
     float: left;
     width: 50%;
-  }
-  
-  #formulario>h1{
-    font-size: 2em;
-  }
-  
-  #formulario>p{
-    font-size: 1.2em;
   }
 }
